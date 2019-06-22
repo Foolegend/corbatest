@@ -1,0 +1,4 @@
+
+interface HelloServer{
+  void sayHello(in string name);
+};
