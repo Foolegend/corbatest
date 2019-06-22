@@ -76,7 +76,7 @@ class HelloClientImpl {
     public static void main(String[] args) {
         try {
             HelloClientImpl test = new HelloClientImpl();
-            test.getORBInterface().sayHello("liguofa");
+            test.getORBInterface().sayHello("lifa");
             //停止
             test.shutdown();
         }catch(Exception ex) {
